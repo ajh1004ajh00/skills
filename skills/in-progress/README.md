@@ -1,8 +1,8 @@
 # In Progress
 
-Beta. These skills are public on purpose: try them and tell me what breaks. They're excluded from the plugin and the top-level README until they graduate to a stable bucket, they get no docs pages, and they can change or disappear without warning.
+Beta. These skills are public on purpose: try them and tell me what breaks. This personal fork includes all seven in the plugin and lists them in the top-level README. They retain their upstream beta status, get no docs pages, and can change or disappear without warning.
 
-The plugin won't give you these. Install one directly:
+They are already included when this fork is installed as a plugin. For a separate upstream skill installation:
 
 ```bash
 npx skills@latest add mattpocock/skills --skill=<name>
@@ -14,3 +14,5 @@ npx skills@latest add mattpocock/skills --skill=<name>
 - **[writing-shape](./writing-shape/SKILL.md)**: Take a markdown file of raw material and shape it into an article paragraph by paragraph, arguing format choices at each step.
 - **[claude-handoff](./claude-handoff/SKILL.md)**: Hand the current conversation off to a fresh background agent that picks up the work immediately, seeded with a handoff summary via `claude --bg`. User-invoked.
 - **[setup-ts-deep-modules](./setup-ts-deep-modules/SKILL.md)**: Wire dependency-cruiser into a TypeScript repo so each package is a deep module: implementation hidden in subfolders, reachable only through its entry-point files, tests exercising it through those. User-invoked.
+
+- **[chief-of-staff](./chief-of-staff/SKILL.md)**: Coordinate subagents, schedules, and a wiki around a long-running goal. User-invoked.

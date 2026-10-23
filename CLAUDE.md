@@ -1,3 +1,7 @@
+## Personal fork policy
+
+This fork deliberately ships all 38 skills from `engineering`, `productivity`, `in-progress`, and `misc`. This overrides the upstream promoted-only manifest and README rules below. Preserve the original skill instructions, invocation policies, and bucket classifications. The additional skills are listed in the personal-fork section of `README.md`; upstream workflow routing remains unchanged.
+
 Skills are organized into bucket folders under `skills/`:
 
 - `engineering/`: daily code work

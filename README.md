@@ -10,6 +10,31 @@
 
 # Skills For Real Engineers
 
+## Personal fork: all 38 skills
+
+This fork includes every skill from `engineering`, `productivity`, `in-progress`, and `misc` in the plugin. The original skill instructions and invocation policies are preserved. Beta and specialized skills retain their upstream status; inclusion does not change their maturity or platform requirements.
+
+Install this fork in Codex with:
+
+```bash
+codex plugin marketplace add ajh1004ajh00/skills
+codex plugin add mattpocock-skills@mattpocock
+```
+
+The upstream installation instructions below describe the original distribution. This fork additionally includes:
+
+- [chief-of-staff](./skills/in-progress/chief-of-staff/SKILL.md)
+- [claude-handoff](./skills/in-progress/claude-handoff/SKILL.md)
+- [loop-me](./skills/in-progress/loop-me/SKILL.md)
+- [setup-ts-deep-modules](./skills/in-progress/setup-ts-deep-modules/SKILL.md)
+- [writing-beats](./skills/in-progress/writing-beats/SKILL.md)
+- [writing-fragments](./skills/in-progress/writing-fragments/SKILL.md)
+- [writing-shape](./skills/in-progress/writing-shape/SKILL.md)
+- [git-guardrails-claude-code](./skills/misc/git-guardrails-claude-code/SKILL.md)
+- [migrate-to-shoehorn](./skills/misc/migrate-to-shoehorn/SKILL.md)
+- [scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)
+- [setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)
+
 [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
 
 My agent skills that I use every day to do real engineering - not vibe coding.
